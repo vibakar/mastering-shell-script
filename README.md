@@ -6,5 +6,8 @@ If condition with all supported args, For loop, Saving output of command to a va
 ## exercise2.sh ##
 Using ping command, exit codes, AND, OR and semicolon(;) usage, mkdir
 
-## exercise2.sh ##
+## exercise3.sh ##
 Using function and creating local variables
+
+## exercise4.sh ##
+Using wildcard

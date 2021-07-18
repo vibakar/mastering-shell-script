@@ -1,3 +1,4 @@
+#!/bin/bash
 function file_count() {
     for DIRECTORY in $@
     do
