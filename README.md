@@ -11,3 +11,6 @@ Using function and creating local variables
 
 ## exercise4.sh ##
 Using wildcard
+
+## exercise5.sh ##
+Using case statements
