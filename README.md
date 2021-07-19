@@ -14,3 +14,6 @@ Using wildcard
 
 ## exercise5.sh ##
 Using case statements
+
+## exercise6.sh ##
+Using while loop
