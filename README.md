@@ -20,3 +20,6 @@ Using while loop
 
 ## exercise7.sh ##
 Debugging(-xev)
+
+## exercise8.sh ##
+Using sed
