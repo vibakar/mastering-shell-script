@@ -38,4 +38,7 @@
 # sed '/^#/d ; s/love/like/ig ; /^$/d' ./test/test.txt
 
 # This approach can also be used to pass multiple parameter
-sed -e '/^#/d' -e 's/love/like/ig' -e '/^$/d' ./test/test.txt
+# sed -e '/^#/d' -e 's/love/like/ig' -e '/^$/d' ./test/test.txt
+
+# Printing file content and substituting/deleting the lines
+cat ./test/test.txt | sed -e '/^#/d' -e 's/love/like/ig' -e '/^$/d'
