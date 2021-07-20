@@ -17,3 +17,6 @@ Using case statements
 
 ## exercise6.sh ##
 Using while loop
+
+## exercise7.sh ##
+Debugging(-xev)
