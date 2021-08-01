@@ -26,3 +26,6 @@ Using sed
 
 ## exercise9.sh ##
 File permissions
+
+## exercise10.sh ##
+Disk/memory usage and availability
