@@ -23,3 +23,6 @@ Debugging(-xev)
 
 ## exercise8.sh ##
 Using sed
+
+## exercise9.sh ##
+File permissions
