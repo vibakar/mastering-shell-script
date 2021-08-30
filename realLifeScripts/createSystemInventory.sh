@@ -3,7 +3,7 @@
 
 # Create a file name database
 
-touch /home/iafzal/ps/database
+touch /home/vibakar/ps/database
 
 # -------------------------------------------------------------
 
@@ -18,7 +18,7 @@ echo Please enter hostname?
 read hostname
 echo
 
-        grep -q $hostname /home/iafzal/ps/database
+        grep -q $hostname /home/vibakar/ps/database
         if [ $? -eq 0 ]
         then
         echo ERROR -- Hostname $hostname already exist
@@ -30,7 +30,7 @@ echo Please enter IP address?
 read IP
 echo
 
-        grep -q $IP /home/iafzal/ps/database
+        grep -q $IP /home/vibakar/ps/database
         if [ $? -eq 0 ]
         then
         echo ERROR -- IP $IP already exist
@@ -60,11 +60,11 @@ echo Please enter hostname or IP address?
 read host
 echo
 
-        grep -q $host /home/iafzal/ps/database
+        grep -q $host /home/vibakar/ps/database
         if [ $? -eq 0 ]
         then
         echo
-        sed -i '/'$host'/d' /home/iafzal/ps/database
+        sed -i '/'$host'/d' /home/vibakar/ps/database
         echo $host has been deleted
         else
         echo Record does not exist
@@ -87,8 +87,8 @@ echo
         read choice
 
                 case $choice in
-a) /home/iafzal/ps/add-record;;
-d) /home/iafzal/ps/del-record;;
+a) /home/vibakar/ps/add-record;;
+d) /home/vibakar/ps/del-record;;
 *) echo Invalid choice - Bye.
 
                 esac
