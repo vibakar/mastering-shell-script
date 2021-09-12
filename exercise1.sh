@@ -73,5 +73,3 @@ done
 # -le => less than or equal to
 # -gt => greater than
 # -ge => greater then or equal to
-
-

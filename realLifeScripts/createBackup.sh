@@ -1,26 +1,13 @@
+#!/bin/bash
+
 # Create backup
-
-
 tar cvf /tmp/backup.tar /etc /var
 
-
-
-
-
 # Compress backup
-
-
 gzip backup.tar
 
 
-
-
-
 #Check backup status and transfer
-
-
-
-#!/bin/bash
 
 tar cvf /tmp/backup.tar <folder-path-to-create-tar>
 gzip backup.tar

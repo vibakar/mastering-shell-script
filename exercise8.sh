@@ -6,7 +6,7 @@
 # It will change the word love to like and display it on the screen and it is not case sensitive
 # sed 's/love/like/i' ./test/test.txt
 
-# It will change the word love to like and display it on the screen and it is will change all occurences
+# It will change the word love to like and display it on the screen and it will change all occurences
 # If g flag is not used, only first occurence of the word on the line will be changed
 # sed 's/love/like/ig' ./test/test.txt
 
