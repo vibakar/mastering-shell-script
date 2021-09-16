@@ -134,3 +134,34 @@ cat database.txt | cut -d " " -f 1 --complement
 
 # This option allows you to specify a different output delimiter string
 cat database.txt | cut -d " " --output-delimiter="_" -f 1-3
+
+# To Create a new user
+sudo useradd -m -d /opt/<username> -c "Short description" -u <user_id> -g <p_grp> -G <s_grp>,<s_grp> -e "2022-01-22" <username>
+# -m => Creates home directoy
+# -d => Uses the specified path to create home directoy
+# -c => Short description can be added
+# -u => Creates user with specified user id
+# -g => Adds user to the specified group(Primary group)
+# -G => Adds user to the multiple groups(Secondary group)
+# -e => Sets the expiration date for the user (can be set to empty, to disable the expiration of an account)
+
+# To verify the user account expiry date
+# sudo chage -l <username>
+
+# To delete a user
+userdel <username>
+
+# To create a group with group id
+groupadd -g <group_id> <group_name>
+
+# To delete a group
+groupdel <groupname>
+
+# To change your own user’s account password, run the passwd command without any arguments
+passwd
+
+# Change Another User’s Password
+sudo passwd <username>
+
+# Force User to Change Password at Next Login
+sudo passwd --expire <username>
