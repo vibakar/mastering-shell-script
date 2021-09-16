@@ -112,6 +112,12 @@ sed '/^#/d ; s/love/like/ig ; /^$/d' ./test/test.txt
 # This approach can also be used to pass multiple parameter
 sed -e '/^#/d' -e 's/love/like/ig' -e '/^$/d' ./test/test.txt
 
+# Extract particular line from a file. Below will print 2nd line
+sed -n '2p'
+
+# Below command will delete all the lines, except 2nd line
+sed '2!d'
+
 # Printing file content and substituting/deleting the lines
 cat ./test/test.txt | sed -e '/^#/d' -e 's/love/like/ig' -e '/^$/d'
 

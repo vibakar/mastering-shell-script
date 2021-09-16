@@ -29,3 +29,11 @@ File permissions
 
 ## exercise10.sh ##
 Disk/memory usage and availability
+
+## exercise11.sh ##
+Cut
+
+## vi editor ##
+
+## summary.sh ##
+Contains all the key commands
