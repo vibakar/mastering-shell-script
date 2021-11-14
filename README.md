@@ -33,7 +33,8 @@ Disk/memory usage and availability
 ## exercise11.sh ##
 Cut
 
-## vi editor ##
+## exercise12.sh ##
+vi editor commands
 
 ## summary.sh ##
 Contains all the key commands
